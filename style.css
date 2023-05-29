@@ -68,7 +68,7 @@ body * {
 #profile img {
   /* display: block; */
   width: 112px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 #profile p {
@@ -104,7 +104,7 @@ body * {
 .light #switch button {
   /* right: 0;
   left: initial; */
-  animation: slide-in 0.4s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
@@ -150,7 +150,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: all 0.5s;
+  transition: background 0.2s;
 }
 
 ul li a:hover {
@@ -177,7 +177,7 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 footer {
